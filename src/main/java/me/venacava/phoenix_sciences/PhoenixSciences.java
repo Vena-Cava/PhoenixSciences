@@ -132,7 +132,7 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
                                         null,                                   null,              null };
                                         null,                                   null,              null };
 
-        SlimefunItem LiquiAir = new SlimefunItem(itemGroup, LiquidAir, RecipeType.SMELTERY, LiquidAirRecipe);
+        SlimefunItem LiquiAir = new SlimefunItem(itemGroup, LiquidAir, RecipeType.FREEZER, LiquidAirRecipe);
         LiquiAir.register(this);
         
         /*
@@ -144,7 +144,7 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
                                       null,                     null,       null };
                                       null,                     null,       null };
 
-        SlimefunItem NeoGas = new SlimefunItem(itemGroup, NeonGas, RecipeType.FREEZER, NeonGasRecipe);
+        SlimefunItem NeoGas = new SlimefunItem(itemGroup, NeonGas, RecipeType.SMELTERY, NeonGasRecipe);
         NeoGas.register(this);
 
     }
