@@ -122,6 +122,30 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
 
         SlimefunItem SynthPar = new SlimefunItem(itemGroup, SyntheticParagon, RecipeType.COMPRESSOR, SyntheticParagonRecipe);
         SynthPar.register(this);
+        
+        /*
+         * Liquid Air
+         */
+        SlimefunItemStack LiquidAir = new SlimefunItemStack("LIQUID_AIR", Material.WATER_BOTTLE), "Liquid Air", "&7Supercold Air, so cold that it condensed into a liquid.");
+
+        ItemStack[] LiquidAirRecipe = { new ItemStack(Material.GLASS_BOTTLE),   null,              null };
+                                        null,                                   null,              null };
+                                        null,                                   null,              null };
+
+        SlimefunItem LiquiAir = new SlimefunItem(itemGroup, LiquidAir, RecipeType.SMELTERY, LiquidAirRecipe);
+        LiquiAir.register(this);
+        
+        /*
+         * Neon Gas
+         */
+        SlimefunItemStack NeonGas = new SlimefunItemStack("NEON_GAS", Material.DRAGON_BREATH), "Neon Gas", "&7Neon Gas in a Bottle.");
+
+        ItemStack[] NeonGasRecipe = { LiquiAir.getItem(),       null,       null };
+                                      null,                     null,       null };
+                                      null,                     null,       null };
+
+        SlimefunItem NeoGas = new SlimefunItem(itemGroup, NeonGas, RecipeType.FREEZER, NeonGasRecipe);
+        NeoGas.register(this);
 
     }
 
