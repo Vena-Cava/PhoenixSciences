@@ -232,7 +232,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteWhite = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_WHITE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFmY2E1ZGU0ZDRhYjhjMGU5YzUwMWIxOTIzYWY5NDUxZDgxNDcxOGZiZGU3MGZlOWQyYTg3Mjg4OTc1MzAwNCJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &f&lWhite"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &f&lWhite"
         );
 
         ItemStack[] NeoniteWhiteRecipe = {
@@ -255,7 +256,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteRed = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_RED",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg1ZWMyZTA4YTE4NjBjNTViODYxZTdkYjIwODU1NjQwMzVlOTQxMDdiMjYwZmFlMmZhZGQ0NWE4YTFhOTZkOCJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &4&lRed"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &4&lRed"
         );
 
         ItemStack[] NeoniteRedRecipe = {
@@ -278,7 +280,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteGreen = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_GREEN",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBlMzNiM2ExODA4MjI1MzgxMWY1NTcxMzJlYjc0ODcyYzBjY2QzYzlkMGI3OGUzYThiYzYxODFiNGQ0NjRiIn19fQ==")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &2&lGreen"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &2&lGreen"
         );
 
         ItemStack[] NeoniteGreenRecipe = {
@@ -299,9 +302,10 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
          * Brown Neonite Crystal
          */
         SlimefunItemStack NeoniteBrown = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_BROWN",
-                PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBlMzNiM2ExODA4MjI1MzgxMWY1NTcxMzJlYjc0ODcyYzBjY2QzYzlkMGI3OGUzYThiYzYxODFiNGQ0NjRiIn19fQ==")),
+                PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxY2RhNWIwYmYwZWNhMWFmMjkwZmNhN2EwY2YyZjIxZGJlM2I5OTk0YTgzYWZiNWIzNTRmMDU3ODkyNTliNSJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &6&lBrown"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &6&lBrown"
         );
 
         ItemStack[] NeoniteBrownRecipe = {
@@ -324,7 +328,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteBlue = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_BLUE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI2NzhjNGRiNTQ4OTM1OTg2YzgxNjQ1ZDRjYjhlZmJlNjllZjQwOWRmYzc2NWNkMWIyMWFiMTMwMmE5N2ExNyJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &1&lBlue"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &1&lBlue"
         );
 
         ItemStack[] NeoniteBlueRecipe = {
@@ -347,7 +352,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeonitePurple = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_PURPLE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRkNDMzNTU1MGFiNDE4MTdhZWEyMGI0NzFlMDZiZjFkNGVlZWEwMGY1YmYzYjU5NTg4NzM3MTA3NDU0OWMzYiJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &5&lPurple"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &5&lPurple"
         );
 
         ItemStack[] NeonitePurpleRecipe = {
@@ -370,7 +376,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteCyan = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_CYAN",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUzODMwNDU5OGRhNjgxOTMyMjYwY2M3MTQ1NmM0YTdjZDBiNDlhZDZmZWIyMzE1OWRhNGEwNjRkM2I4NDVmZSJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &3&lCyan"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &3&lCyan"
         );
 
         ItemStack[] NeoniteCyanRecipe = {
@@ -393,7 +400,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteLightGray = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_LIGHT_GRAY",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0ZjE4Y2NkMjM4ODE3YWM0MjZlN2ZkZmUzMjA3ZDJkYjhhYTlkODQ0ZWYwODQwYTE1NjA0MWEwZThlMzdiZCJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &7&lLight CGray"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &7&lLight Gray"
         );
 
         ItemStack[] NeoniteLightGrayRecipe = {
@@ -416,7 +424,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteGray = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_PURPLE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjY4ZWNjZTBmMmVmM2IxZWRkMDMwNzZhMDNiMmFjMTIyMGMzNThlZmQ0M2NiYzkwY2FlOWQxMmQwZjdlMGQ2YyJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &8&lGray"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &8&lGray"
         );
 
         ItemStack[] NeoniteGrayRecipe = {
@@ -439,7 +448,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeonitePink = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_PINK",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdiMjJjZDlmMzg5NzJkMzg0M2Y3N2I2YmYyODJmMDQ2M2RhZTYwOTVhMjQ2MThmNzgzMWY3Y2VkNmU3NGUxNCJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &c&lPink"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &c&lPink"
         );
 
         ItemStack[] NeonitePinkRecipe = {
@@ -462,7 +472,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteLime = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_LIME",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk4MWYxMjI1MjZiNjIwMDM2ZWNjNGE1ODQwM2VjZGQ0NmYwMzdhMjRiMjgyM2Q3ZTRjYTRmZWI2ZTkyODM5NyJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &a&lLime"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &a&lLime"
         );
 
         ItemStack[] NeoniteLimeRecipe = {
@@ -485,7 +496,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteYellow = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_YELLOW",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkZTFhNGM0MDQ5MmNmZTY5YmQwMTg4YjFhMTc4YjUyY2ZmN2UxYThiYjE0NWZjNTczOTIyOTc4YTA1NDIwYyJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &e&lYellow"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &e&lYellow"
         );
 
         ItemStack[] NeoniteYellowRecipe = {
@@ -508,7 +520,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteLightBlue = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_LIGHT_BLUE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVkOTJlOTFiMWVkZjNjY2UwMThiMGQ5MjQzZjJkYjIwMjRkYTMxMGNmYTY2YmIzOGRlYjhkYzA4ODkxOTU2ZSJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &b&lLight Blue"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &b&lLight Blue"
         );
 
         ItemStack[] NeoniteLightBlueRecipe = {
@@ -531,7 +544,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteMagenta = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_MAGENTA",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUyYmNhMjUzNGE5M2I1NDgyNTljOGM2YjJmNjg0YmNlZTEzNGVlZDcwZDcyNWI0YzkwMDg5MmY3OTI0ZGEzNiJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &d&lMagenta"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &d&lMagenta"
         );
 
         ItemStack[] NeoniteMagentaRecipe = {
@@ -554,7 +568,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteOrange = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_ORANGE",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThiMjliYzI0NDg3NjQ2OTAxMTg4NDkxNjk1NzAzMjFiMDE4MWFkY2I2Nzc1YmRmNDM2YWUyMzc3NWU1NmQ4NSJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &6&lOrange"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &6&lOrange"
         );
 
         ItemStack[] NeoniteOrangeRecipe = {
@@ -577,7 +592,8 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
         SlimefunItemStack NeoniteBlack = new SlimefunItemStack("PHOENIXSCIENCES_NEONITE_CRYSTAL_BLACK",
                 PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlY2VhY2IxZTNmZmU3ZmMyOWY2ZjIzYjRmZmY2ZmRiNTNlMGIwOWVhMzQ0M2FkMjllMTg2OWZiNDBhOTc2OCJ9fX0=")),
                 "&fNeonite Crystal",
-                "&7A Powerful Crystal used to Power Machines.\n&7Color: &0&lBlack"
+                "&7A Powerful Crystal used to Power Machines.",
+                "&7Color: &0&lBlack"
         );
 
         ItemStack[] NeoniteBlackRecipe = {
