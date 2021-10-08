@@ -15,6 +15,10 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
 public class PSMachines {
+
+    public static SlimefunItem harLiBriPro;
+    public static SlimefunItem neoCorWhi;
+
     public static void setup(PhoenixSciences plugin) {
         ItemStack phoSciItem = new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhNzUzZjE3ZGUxMzhmY2EzOTUyM2VjMjhlZWY1Y2QzNDZkOTJkMWI3OWVlNTllYzNmODA5MjgxMjM2ZGI1MyJ9fX0=")), "&4Phoenix Sciences", "", "&a> Click to open");
 
@@ -41,12 +45,12 @@ public class PSMachines {
         );
 
         ItemStack[] hardlightBridgeProjectorRecipe = {
-                cybSteIng.getItem(), new ItemStack(Material.GLASS), cybSteIng.getItem(),
-                synthPar.getItem(), new ItemStack(Material.DISPENSER), synthPar.getItem(),
-                cybSteIng.getItem(), SlimefunItems.MEDIUM_CAPACITOR, cybSteIng.getItem()
+                PSResources.cybSteIng.getItem(), new ItemStack(Material.GLASS), PSResources.cybSteIng.getItem(),
+                PSResources.synthPar.getItem(), new ItemStack(Material.DISPENSER), PSResources.synthPar.getItem(),
+                PSResources.cybSteIng.getItem(), SlimefunItems.MEDIUM_CAPACITOR, PSResources.cybSteIng.getItem()
         };
 
-        SlimefunItem harLiBriPro = new SlimefunItem(
+        harLiBriPro = new SlimefunItem(
                 phoSciMachGroup,
                 hardlightBridgeProjector,
                 RecipeType.ENHANCED_CRAFTING_TABLE,
@@ -65,12 +69,12 @@ public class PSMachines {
         );
 
         ItemStack[] neonicPowerCoreWhiteRecipe = {
-                cybSteIng.getItem(), new ItemStack(Material.GLASS), cybSteIng.getItem(),
-                neoCrysWhi.getItem(), SlimefunItems.ENERGIZED_CAPACITOR, neoCrysWhi.getItem(),
-                cybSteIng.getItem(), neoCrysWhi.getItem(), cybSteIng.getItem()
+                PSResources.cybSteIng.getItem(), new ItemStack(Material.GLASS), PSResources.cybSteIng.getItem(),
+                PSResources.neoCrysWhi.getItem(), SlimefunItems.ENERGIZED_CAPACITOR, PSResources.neoCrysWhi.getItem(),
+                PSResources.cybSteIng.getItem(), PSResources.neoCrysWhi.getItem(), PSResources.cybSteIng.getItem()
         };
 
-        SlimefunItem neoCorWhi = new SlimefunItem(
+        neoCorWhi = new SlimefunItem(
                 phoSciMachGroup,
                 neonicPowerCoreWhite,
                 RecipeType.ENHANCED_CRAFTING_TABLE,

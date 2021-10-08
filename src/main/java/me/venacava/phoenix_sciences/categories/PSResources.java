@@ -19,6 +19,38 @@ import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
 
 public class PSResources{
+
+    public static SlimefunItem cybDus;
+    public static SlimefunItem cybIng;
+    public static SlimefunItem cybSteIng;
+    public static SlimefunItem synthRub;
+    public static SlimefunItem synthTop;
+    public static SlimefunItem synthAme;
+    public static SlimefunItem synthAmb;
+    public static SlimefunItem synthQua;
+    public static SlimefunItem synthOny;
+    public static SlimefunItem synthPar;
+    public static SlimefunItem liqAir;
+    public static SlimefunItem neoGas;
+    public static SlimefunItem neoCrysWhi;
+    public static SlimefunItem neoCrysRed;
+    public static SlimefunItem neoCrysGre;
+    public static SlimefunItem neoCrysBro;
+    public static SlimefunItem neoCrysBlu;
+    public static SlimefunItem neoCrysPur;
+    public static SlimefunItem neoCrysCya;
+    public static SlimefunItem neoCrysLiGra;
+    public static SlimefunItem neoCrysGra;
+    public static SlimefunItem neoCrysPin;
+    public static SlimefunItem neoCrysLim;
+    public static SlimefunItem neoCrysYel;
+    public static SlimefunItem neoCrysLiBlu;
+    public static SlimefunItem neoCrysMag;
+    public static SlimefunItem neoCrysOra;
+    public static SlimefunItem neoCrysBla;
+
+
+
     public static void setup(PhoenixSciences plugin) {
         ItemStack phoSciItem = new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhNzUzZjE3ZGUxMzhmY2EzOTUyM2VjMjhlZWY1Y2QzNDZkOTJkMWI3OWVlNTllYzNmODA5MjgxMjM2ZGI1MyJ9fX0=")), "&4Phoenix Sciences", "", "&a> Click to open");
 
@@ -50,7 +82,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem cybDus = new SlimefunItem(
+        cybDus = new SlimefunItem(
                 phoSciResoGroup,
                 cybiumDust,
                 RecipeType.ORE_WASHER,
@@ -72,7 +104,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem cybIng = new SlimefunItem(
+        cybIng = new SlimefunItem(
                 phoSciResoGroup,
                 cybiumIngot,
                 RecipeType.SMELTERY,
@@ -94,7 +126,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem cybSteIng = new SlimefunItem(
+        cybSteIng = new SlimefunItem(
                 phoSciResoGroup,
                 cybersteelIngot,
                 RecipeType.SMELTERY,
@@ -117,7 +149,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem synthRub = new SlimefunItem(
+        synthRub = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticRuby,
                 RecipeType.SMELTERY,
@@ -140,7 +172,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem synthTop = new SlimefunItem(
+        synthTop = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticTopaz,
                 RecipeType.SMELTERY,
@@ -163,7 +195,7 @@ public class PSResources{
                 null,                           null,                               null
         };
 
-        SlimefunItem synthAme = new SlimefunItem(
+        synthAme = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticAmethyst,
                 RecipeType.SMELTERY,
@@ -186,7 +218,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem synthAmb = new SlimefunItem(
+        synthAmb = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticAmber,
                 RecipeType.SMELTERY,
@@ -209,7 +241,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem synthQua = new SlimefunItem(
+        synthQua = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticQuartz,
                 RecipeType.SMELTERY,
@@ -232,7 +264,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem synthOny = new SlimefunItem(
+        synthOny = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticOnyx,
                 RecipeType.SMELTERY,
@@ -255,7 +287,7 @@ public class PSResources{
                 synthRub.getItem(), synthAmb.getItem(), synthTop.getItem()
         };
 
-        SlimefunItem synthPar = new SlimefunItem(
+        synthPar = new SlimefunItem(
                 phoSciResoGroup,
                 syntheticParagon,
                 RecipeType.COMPRESSOR,
@@ -283,7 +315,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem liqAir = new SlimefunItem(
+        liqAir = new SlimefunItem(
                 phoSciResoGroup,
                 liquidAir,
                 RecipeType.FREEZER,
@@ -306,7 +338,7 @@ public class PSResources{
                 null, null, null
         };
 
-        SlimefunItem neoGas = new SlimefunItem(
+        neoGas = new SlimefunItem(
                 phoSciResoGroup,
                 neonGas,
                 RecipeType.SMELTERY,
@@ -330,7 +362,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.WHITE_DYE),  neoGas.getItem()
         };
 
-        SlimefunItem neoCrysWhi = new SlimefunItem(
+        neoCrysWhi = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteWhite,
                 RecipeType.SMELTERY,
@@ -354,7 +386,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.RED_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysRed = new SlimefunItem(
+        neoCrysRed = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteRed,
                 RecipeType.SMELTERY,
@@ -378,7 +410,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.GREEN_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysGre = new SlimefunItem(
+        neoCrysGre = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteGreen,
                 RecipeType.SMELTERY,
@@ -402,7 +434,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.BROWN_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysBro = new SlimefunItem(
+        neoCrysBro = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteBrown,
                 RecipeType.SMELTERY,
@@ -426,7 +458,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.BLUE_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysBlu = new SlimefunItem(
+        neoCrysBlu = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteBlue,
                 RecipeType.SMELTERY,
@@ -450,7 +482,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.PURPLE_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysPur = new SlimefunItem(
+        neoCrysPur = new SlimefunItem(
                 phoSciResoGroup,
                 neonitePurple,
                 RecipeType.SMELTERY,
@@ -474,7 +506,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.CYAN_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysCya = new SlimefunItem(
+        neoCrysCya = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteCyan,
                 RecipeType.SMELTERY,
@@ -498,7 +530,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.LIGHT_GRAY_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysLiGra = new SlimefunItem(
+        neoCrysLiGra = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteLightGray,
                 RecipeType.SMELTERY,
@@ -522,7 +554,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.GRAY_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysGra = new SlimefunItem(
+        neoCrysGra = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteGray,
                 RecipeType.SMELTERY,
@@ -546,7 +578,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.PINK_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysPin = new SlimefunItem(
+        neoCrysPin = new SlimefunItem(
                 phoSciResoGroup,
                 neonitePink,
                 RecipeType.SMELTERY,
@@ -570,7 +602,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.LIME_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysLim = new SlimefunItem(
+        neoCrysLim = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteLime,
                 RecipeType.SMELTERY,
@@ -594,7 +626,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.YELLOW_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysYel = new SlimefunItem(
+        neoCrysYel = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteYellow,
                 RecipeType.SMELTERY,
@@ -618,7 +650,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.LIGHT_BLUE_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysLiBlu = new SlimefunItem(
+        neoCrysLiBlu = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteLightBlue,
                 RecipeType.SMELTERY,
@@ -642,7 +674,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.MAGENTA_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysMag = new SlimefunItem(
+        neoCrysMag = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteMagenta,
                 RecipeType.SMELTERY,
@@ -666,7 +698,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.ORANGE_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysOra = new SlimefunItem(
+        neoCrysOra = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteOrange,
                 RecipeType.SMELTERY,
@@ -690,7 +722,7 @@ public class PSResources{
                 neoGas.getItem(),       new ItemStack(Material.BLACK_DYE),    neoGas.getItem()
         };
 
-        SlimefunItem neoCrysBla = new SlimefunItem(
+        neoCrysBla = new SlimefunItem(
                 phoSciResoGroup,
                 neoniteBlack,
                 RecipeType.SMELTERY,
