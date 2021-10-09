@@ -72,8 +72,7 @@ public class PSResources{
          */
         SlimefunItemStack cybiumDust = new SlimefunItemStack("PHOENIXSCIENCES_CYBIUM_DUST",
                 Material.GUNPOWDER,
-                "&fCybium Dust",
-                "&c+20% Coolness"
+                "&6Cybium Dust"
         );
 
         ItemStack[] cybiumDustRecipe = {
@@ -95,7 +94,7 @@ public class PSResources{
          */
         SlimefunItemStack cybiumIngot = new SlimefunItemStack("PHOENIXSCIENCES_CYBIUM_INGOT",
                 Material.NETHER_BRICK,
-                "&fCybium Ingot"
+                "&bCybium Ingot"
         );
 
         ItemStack[] cybiumIngotRecipe = {
@@ -117,12 +116,12 @@ public class PSResources{
          */
         SlimefunItemStack cybersteelIngot = new SlimefunItemStack("PHOENIXSCIENCES_CYBERSTEEL_INGOT",
                 Material.NETHERITE_INGOT,
-                "&fCybersteel Ingot"
+                "&b&lCybersteel Ingot"
         );
 
         ItemStack[] cybersteelIngotRecipe = {
                 cybDus.getItem(), SlimefunItems.DAMASCUS_STEEL_INGOT, cybIng.getItem(),
-                null, null, null,
+                SlimefunItems.COPPER_INGOT, SlimefunItems.FERROSILICON, null,
                 null, null, null
         };
 

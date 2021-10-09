@@ -14,11 +14,10 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
+import static me.venacava.phoenix_sciences.categories.PSResources.cybSteIng;
+import static me.venacava.phoenix_sciences.categories.PSResources.neoCrysWhi;
+
 public class PSMachines {
-
-    public static SlimefunItem harLiBriPro;
-    public static SlimefunItem neoCorWhi;
-
     public static void setup(PhoenixSciences plugin) {
         ItemStack phoSciItem = new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhNzUzZjE3ZGUxMzhmY2EzOTUyM2VjMjhlZWY1Y2QzNDZkOTJkMWI3OWVlNTllYzNmODA5MjgxMjM2ZGI1MyJ9fX0=")), "&4Phoenix Sciences", "", "&a> Click to open");
 
@@ -36,27 +35,53 @@ public class PSMachines {
         SubItemGroup phoSciMachGroup = new SubItemGroup(phoSciMachId, phoSciGroup, phoSciMachItem);
 
         /*
-         * Hard-Light Bridge Projector
+         * Hard-Light Projector - I
          */
-        SlimefunItemStack hardlightBridgeProjector = new SlimefunItemStack("PHOENIXSCIENCES_HARDLIGHT_BRIDGE_PROJECTOR",
+        SlimefunItemStack hardlightProjector1 = new SlimefunItemStack("PHOENIXSCIENCES_HARDLIGHT_PROJECTOR_1",
                 Material.OBSERVER,
-                "&fHard-Light Projector",
-                "&7When Paired with a Powered Neonic Core, will project Hard-Light until it hits a Stopper."
+                "&fHard-Light Projector - I",
+                "&7When Paired with a Powered Neonic Core, will project Hard-Light until it hits a Receiver.",
+                "",
+                "&7Max Distance - &68",
+                "&7Consumption  - &616 J/s"
         );
 
-        ItemStack[] hardlightBridgeProjectorRecipe = {
-                PSResources.cybSteIng.getItem(), new ItemStack(Material.GLASS), PSResources.cybSteIng.getItem(),
-                PSResources.synthPar.getItem(), new ItemStack(Material.DISPENSER), PSResources.synthPar.getItem(),
-                PSResources.cybSteIng.getItem(), SlimefunItems.MEDIUM_CAPACITOR, PSResources.cybSteIng.getItem()
+        ItemStack[] hardlightProjector1Recipe = {
+                cybSteIng.getItem(), new ItemStack(Material.GLASS), cybSteIng.getItem(),
+                SlimefunItems.DURALUMIN_INGOT, new ItemStack(Material.DISPENSER), SlimefunItems.DURALUMIN_INGOT,
+                cybSteIng.getItem(), SlimefunItems.SMALL_CAPACITOR, cybSteIng.getItem()
         };
 
-        harLiBriPro = new SlimefunItem(
+        SlimefunItem harLiPro1 = new SlimefunItem(
                 phoSciMachGroup,
-                hardlightBridgeProjector,
+                hardlightProjector1,
                 RecipeType.ENHANCED_CRAFTING_TABLE,
-                hardlightBridgeProjectorRecipe
+                hardlightProjector1Recipe
         );
-        harLiBriPro.register(plugin);
+        harLiPro1.register(plugin);
+
+        /*
+         * Hard-Light Receiver
+         */
+        SlimefunItemStack hardlightReceiver = new SlimefunItemStack("PHOENIXSCIENCES_HARDLIGHT_RECEIVER",
+                Material.CHISELED_POLISHED_BLACKSTONE,
+                "&fHard-Light Receiver",
+                "&7A Machine used to create Hard-Light Bridges."
+        );
+
+        ItemStack[] hardlightReceiverRecipe = {
+                cybSteIng.getItem(), new ItemStack(Material.GLASS), cybSteIng.getItem(),
+                SlimefunItems.LEAD_INGOT, new ItemStack(Material.OBSERVER), SlimefunItems.LEAD_INGOT,
+                cybSteIng.getItem(), new ItemStack(Material.HOPPER), cybSteIng.getItem()
+        };
+
+        SlimefunItem harLiRec = new SlimefunItem(
+                phoSciMachGroup,
+                hardlightReceiver,
+                RecipeType.ENHANCED_CRAFTING_TABLE,
+                hardlightReceiverRecipe
+        );
+        harLiRec.register(plugin);
 
         /*
          * White Neonic Power Core
@@ -69,12 +94,12 @@ public class PSMachines {
         );
 
         ItemStack[] neonicPowerCoreWhiteRecipe = {
-                PSResources.cybSteIng.getItem(), new ItemStack(Material.GLASS), PSResources.cybSteIng.getItem(),
-                PSResources.neoCrysWhi.getItem(), SlimefunItems.ENERGIZED_CAPACITOR, PSResources.neoCrysWhi.getItem(),
-                PSResources.cybSteIng.getItem(), PSResources.neoCrysWhi.getItem(), PSResources.cybSteIng.getItem()
+                cybSteIng.getItem(), new ItemStack(Material.GLASS), cybSteIng.getItem(),
+                neoCrysWhi.getItem(), SlimefunItems.ENERGIZED_CAPACITOR, neoCrysWhi.getItem(),
+                cybSteIng.getItem(), neoCrysWhi.getItem(), cybSteIng.getItem()
         };
 
-        neoCorWhi = new SlimefunItem(
+        SlimefunItem neoCorWhi = new SlimefunItem(
                 phoSciMachGroup,
                 neonicPowerCoreWhite,
                 RecipeType.ENHANCED_CRAFTING_TABLE,
