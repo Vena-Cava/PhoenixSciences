@@ -1,14 +1,11 @@
 package me.venacava.phoenix_sciences.categories;
 
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 import me.venacava.phoenix_sciences.PhoenixSciences;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -19,11 +16,6 @@ import static me.venacava.phoenix_sciences.categories.PSResources.neoCrysWhi;
 
 public class PSMachines {
     public static void setup(PhoenixSciences plugin) {
-        ItemStack phoSciItem = new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromBase64("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhNzUzZjE3ZGUxMzhmY2EzOTUyM2VjMjhlZWY1Y2QzNDZkOTJkMWI3OWVlNTllYzNmODA5MjgxMjM2ZGI1MyJ9fX0=")), "&4Phoenix Sciences", "", "&a> Click to open");
-
-        // Give your Category a unique id.
-        NamespacedKey phoSciId = new NamespacedKey(plugin, "phoenix_sciences");
-        NestedItemGroup phoSciGroup = new NestedItemGroup(phoSciId, phoSciItem);
 
         /*
          * Machines Sub-Category
@@ -32,7 +24,7 @@ public class PSMachines {
 
         // Give your Category a unique id.
         NamespacedKey phoSciMachId = new NamespacedKey(plugin, "phoenix_sciences_machines");
-        SubItemGroup phoSciMachGroup = new SubItemGroup(phoSciMachId, phoSciGroup, phoSciMachItem);
+        ItemGroup phoSciMachGroup = new ItemGroup(phoSciMachId, phoSciMachItem);
 
         /*
          * Hard-Light Projector - I

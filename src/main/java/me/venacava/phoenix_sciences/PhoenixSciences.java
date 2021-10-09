@@ -34,7 +34,7 @@ public class PhoenixSciences extends JavaPlugin implements SlimefunAddon {
 
         // Give your Category a unique id.
         NamespacedKey phoSciId = new NamespacedKey(this, "phoenix_sciences");
-        NestedItemGroup PhoSciGroup = new NestedItemGroup(phoSciId, phoSciItem);
+        NestedItemGroup phoSciGroup = new NestedItemGroup(phoSciId, phoSciItem);
 
         PSResources.setup(this);
 
